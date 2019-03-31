@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+   <title> Niii's world </title>
+</head>
+
+<body>
+   <link rel="stylesheet" href="css/main.css">
+   <div id="resetAll" hidden> <button> <a href="https://goo.gl/z6tXua">reset all</a> </button></div>
+   <span id="youSaid" link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"> </span>
+
+   <div id="divLogin">
+      <div id="divFirstButton">
+         <button class="button" style="vertical-align:middle" onclick="openTheLoginGate()">
+            <span>
+               GO AWAY 😤😾🐰
+            </span>
+         </button>
+      </div>
+      <div> <img src="https://cdn.discordapp.com/attachments/526547888751509534/526548029491249172/hr1.png" alt="hr1"
+            width="adjust"> </div>
+
+      <div id="divOpen" hidden> ~~~
+         <input id="idIdentify" type="text" placeholder="medonTknowyrName"
+            onkeypress="if (event.keyCode == 13) isIdentify();">
+         <span id="spanOpen1" hidden>
+            <input id="idMeLJ" type="text" placeholder="uKnowAllMahName"
+               onkeypress="if (event.keyCode == 13) isMeLJ();"> ~~~
+            <span id="spanOpen2" hidden>
+               <button id="idShow" onclick="show()">
+                  <span data-title="|🍗🥦🍲|"> Touch me 😸 </span>
+               </button>
+            </span>
+
+         </span>
+      </div>
+   </div>
+
+   <div id="DataSet" hidden>
+      <p id="ShowData">
+         Teleport to...
+         <div id="key1" hidden> <a href="#data1"> [1] </a> </div>
+         <div id="key2" hidden> <a href="#data2"> [2] </a> </div>
+         <div id="key3" hidden> <a href="#data3"> [3] </a> </div>
+         <div id="key4" hidden> <a href="#data4"> [4] </a> </div>
+         <div id="key5" hidden> <a href="#data5"> [5] </a> </div>
+         <div id="key6" hidden> <a href="#data6"> [6] </a> </div>
+         <div id="key7" hidden> <a href="#data7"> [7] </a> </div>
+         <div id="key8" hidden> <a href="#data8"> [8] </a> </div>
+      </p>
+      <div> <img src="https://cdn.discordapp.com/attachments/526547888751509534/526548029491249172/hr1.png" alt="hr1"
+            width="adjust"> </div>
+
+      <figure class="light" align="middle">
+         <div id="data1" hidden>
+            <img src="https://cdn.discordapp.com/attachments/526547888751509534/526548185217236992/Sname_gif.gif"
+               width="40%">
+            <img src="https://cdn.discordapp.com/attachments/526547888751509534/526548160055738381/Sarang_gif.gif"
+               width="40%"> <br>
+            This is the link of the gif in the mp4 form, in case Niii wants to make it as your locked phone &#40;video
+            form&#41; or the 'Always on Screen' function of your Samsung Galaxy s9+ :p
+            - this will look fabulous for sure ^^ --
+            <a href="https://goo.gl/ovQdSs">Left image</a> ||
+            <a href="https://goo.gl/TzagZ4">Righ image</a>
+            <audio controls autoplay>
+               <source src="audio/IU (아이유) – 12월 24일.mp3" type="audio/mpeg">
+            </audio>
+            <br> <a href="#youSaid">Continue clicking ^^ </a>
+            <hr width="100%" size="0.5px" align="left" color="#1DE9B6" />
+         </div>
+      </figure>
+
+      <figure class="light" align="middle">
+         <div id="data2" hidden>
+            <img src="https://cdn.discordapp.com/attachments/526547888751509534/526548076861718548/Nghi2.jpg"
+               width="33%">
+            <img src="https://cdn.discordapp.com/attachments/526547888751509534/526548097535311902/Nghi3.jpg"
+               width="33%">
+            <img src="https://cdn.discordapp.com/attachments/526547888751509534/526548065994145802/Nghi1.jpg"
+               width="33%"> <br>
+            <figcaption>
+               <i>Mess with snow ^^ &#40;5:40AM xD&#41;</i>
+               <u><i> by Jung </i></u>
+            </figcaption>
+            <br> <a href="#youSaid">Continue... ^^ </a>
+            <hr width="100%" size="0.5px" align="left" color="#1DE9B6" />
+         </div>
+      </figure>
+
+      <figure class="light" align="middle">
+         <div id="data3" hidden>
+            This is an Android app and the download link I made for ya...
+            <a href="#">Download</a>
+            <br> <a href="#youSaid">keep going ^^ </a>
+            <hr width="100%" size="0.5px" align="left" color="#1DE9B6" />
+         </div>
+      </figure>
+
+      <figure class="light" align="middle">
+         <div id="data4" hidden>
+            Mini game with snow 😁 <br>
+            <canvas id="myCanvas" width="500" height="300"></canvas>
+            <p>
+               <input type="button" value="Throw" onclick="projectileMotion();">
+            </p>
+            <br> <a href="#youSaid">you should run more ^^ </a>
+            <hr width="100%" size="0.5px" align="left" color="#1DE9B6" />
+         </div>
+      </figure>
+
+      <figure class="light" align="middle">
+         <div id="data5" hidden>
+            I am not sure what I am talking about but you can draw something here ^^
+            <br>
+            <details>
+               <summary id="sum1">Click</summary>
+               <select id="mySelect" onchange="drawYouWant()">
+                  <option value="Line">Line</option>
+                  <option value="Circle">Circle</option>
+                  <option value="Linear Gradient">Linear Gradient</option>
+                  <option value="Radial Gradient">Radial Gradient</option>
+                  <option value="Image">Image</option>
+               </select>
+               <hr>
+               <canvas id="canvas" style="border:1px solid #d3d3d3;">
+                  <img id="1" src="img/janna.jpg">
+                  <img id="2" src="img/jinx.jpg">
+                  <img id="3" src="img/soraka.jpg">
+                  <img id="4" src="img/ahri.jpg">
+               </canvas>
+            </details>
+
+            <br> <a href="#youSaid">should not stop here ^^ </a>
+            <hr width="100%" size="0.5px" align="left" color="#1DE9B6" />
+         </div>
+      </figure>
+
+      <figure class="light" align="middle">
+         <div id="data6" hidden>
+            Coooool :3
+            <img src="https://cdn.discordapp.com/attachments/526547888751509534/526548134126419979/NSG_Soraka.jpg"
+               width="40%">
+            <br> <a href="#youSaid">Above above ^^ </a>
+            <hr width="100%" size="0.5px" align="left" color="#1DE9B6" />
+         </div>
+      </figure>
+
+      <figure class="light" align="middle">
+         <div id="data7" hidden>
+            <video width="13%" height="13%" controls>
+               <source src="video/Demons 2.mp4" type="video/mp4">
+            </video>
+            ... To be continue if I have chance to do sth for you :3
+            <br> <a href="#youSaid">hope you have fun ^^ </a>
+            <hr width="100%" size="0.5px" align="left" color="#1DE9B6" />
+         </div>
+      </figure>
+   </div>
+   <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

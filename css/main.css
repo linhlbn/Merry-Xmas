@@ -1,0 +1,222 @@
+/* CSS for body and para */
+body {
+    background-image: url("https://cdn.discordapp.com/attachments/526547888751509534/526548010310565899/cityBackground.jpg");
+    background-size: cover;
+
+}
+
+p {
+    color: #607D8B;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 17px;
+}
+
+/* CSS for intro words */
+#youSaid {
+    font-family: 'Patrick Hand', cursive;
+    padding: 20px;
+    font-size: 30px;
+    color: #00BCD4;
+}
+
+/* CSS for general button and input */
+button {
+    background-color: transparent;
+    font-size: 30px;
+    font-family: 'Bungee', cursive;
+    align-self: center;
+}
+
+input[type=text] {
+    background-color: transparent;
+    color: rgb(255, 0, 0);
+    border: #ff3300;
+    padding: 7px 1px;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* CSS for starter button (I used class here instead of id - just use another way to know more) */
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    color: #00B0FF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 312px;
+    transition: all 0.519s;
+    cursor: pointer;
+    margin: 19px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.519s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -200px;
+    transition: 0.519s;
+}
+
+.button:hover span {
+    padding-right: 100px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* CSS for div tab */
+#divOpen {
+    width: 100%;
+}
+
+#divLogin {
+    color: #607D8B;
+}
+
+#spanOpen1 {
+    width: 100%;
+}
+
+#spanOpen2 {
+    width: 100%;
+}
+
+#idIdentify,
+#idMeLJ {
+    width: 195px;
+}
+
+/* CSS for button show */
+#idShow {
+    border: none;
+    text-align: center;
+    background-color: transparent;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255, 255, 255, 0.3)));
+}
+
+#idShow span {
+    font-size: 14px;
+    display: block;
+    position: relative;
+    transition: 0.3s ease-in-out all;
+    transform-origin: 50% 0;
+    transform-style: preserve-3d;
+    background-color: rgb(197, 248, 197);
+    color: rgb(255, 0, 0);
+    width: 100%;
+
+}
+
+#idShow span:after {
+    font-size: 14px;
+    display: block;
+    content: attr(data-title);
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.3s ease-in-out all;
+    transform-origin: 50% 0;
+    transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+    background-color: rgb(197, 248, 197);
+    color: rgb(255, 0, 0);
+    width: 100%;
+}
+
+#idShow:hover span {
+    transform: translate3d(0px, 0px, -132px) rotateX(90deg);
+}
+
+/* CSS for links */
+a:link {
+    background-color: rgb(240, 240, 205);
+    color: rgb(250, 211, 211);
+    padding: 2.5px 5px;
+    text-align: center;
+    text-decoration: #b7bfcc;
+    display: inline-block;
+    font-size: 14px;
+}
+
+a:visited {
+    background-color: #b7bfcc;
+}
+
+a:hover {
+    background-color: rgb(204, 248, 204);
+}
+
+a:active {
+    background-color: rgb(255, 206, 231);
+}
+
+/* CSS for figure and figure caption */
+figure.light {
+    color: rgb(0, 110, 255);
+    padding: 2px 2px;
+    font-size: 15px;
+    font-family: 'Amatic SC', cursive;
+}
+
+figure.dark {
+    color: rgb(95, 91, 6);
+    padding: 2px 2px;
+    font-size: 15px;
+}
+
+.lightFigCap {
+    color: rgb(31, 255, 125);
+    padding: 2px 2px;
+    font-size: 15px;
+}
+
+figcaption {
+    text-align: auto;
+}
+
+/* CSS for hr */
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/* a testing comment */
+#DataSet {
+    color: rgb(255, 0, 149);
+}
+
+/* CSS for mini game js */
+canvas {
+    border: 1px black solid;
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+    height: 500px;
+}
+
+#sum1 {
+    color:rgb(233, 69, 69);
+}
+#sum3 {
+    color:rgb(24, 248, 218);
+}
+
+
+/* _____________________________________________________________________________________________________________________ */
