@@ -1,8 +1,9 @@
 # Merry-Xmas
+
 ### Merry Xmas Mini Games
 
 I made this website for gifting a girlfriend (a friend who is a girl) in the Christmas day.
-She needs to sign in with the right user name and code - something that I suggested her before. After answering the right answer, she may find some fabulous thing will be appeared on the screen, it should be: 
+She needs to sign in with the right user name and code - something that I suggested her before. After getting the right answer, she may find some fabulous thing will be appeared on the screen, it should be: 
 
 * nice gif that she can change her mobile locked screen as a video
 * autoplay music
