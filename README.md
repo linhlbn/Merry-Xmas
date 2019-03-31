@@ -10,5 +10,5 @@ She needs to sign in with the right user name and code - something that I sugges
 * download link for the Android app (the music notes challenging) 
 * mini javascript game 
 * draw picture as she wants
-* Imagine Dragons - Demons cover by me
+* sing this song: Imagine Dragons - Demons cover by me
 * special: random quotes will change on the home page every time she clicks to show more content, also have some buttons to 'teleport' to the new content
