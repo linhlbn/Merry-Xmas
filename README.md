@@ -13,7 +13,9 @@ She needs to sign in with the right user name and code - something that I sugges
 * draw picture as she wants
 * sing this song: Imagine Dragons - Demons cover by me
 * special: random quotes will change on the home page every time she clicks to show more content, also have some buttons to 'teleport' to the new content.
+<br>
 *password: Niii cool -> Lii cool -> 1302
+<br>
 Here's the final scene:
 
 ![Final scene](https://github.com/linhlbn/Merry-Xmas/blob/master/finalScene.png)
