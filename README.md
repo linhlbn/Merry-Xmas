@@ -15,7 +15,7 @@ She needs to sign in with the right user name and code - something that I sugges
 * special: random quotes will change on the home page every time she clicks to show more content, also have some buttons to 'teleport' to the new content.
 <br>
 link: https://linhlbn.github.io/Merry-Xmas/index.html
-*password: Niii cute -> Lii cool -> 1302
+*password: Niii cute -> Liii cool -> 1302
 <br>
 Here's the final scene:
 
